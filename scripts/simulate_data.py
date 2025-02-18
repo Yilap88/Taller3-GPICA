@@ -36,7 +36,7 @@ os.chdir(directorio_superior) # Establecemos /proyecto_investigacion/ como ruta 
 
 
 ### Definimos el nombre del archivo
-datos = "datos/datos.csv"
+datos = "data/datos.csv"
 
 ### Guardar el DataFrame en el directorio actual
 dfdatosenergia.to_csv(datos, index=False)
