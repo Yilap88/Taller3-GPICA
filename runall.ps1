@@ -5,7 +5,7 @@ $Pythonscriptpath = "C:\Users\ypalacios\Desktop\Universidad\Taller3\Taller3-GPIC
 
 & conda env create -f environment.yml
 & conda activate myenvironment
-& cd ./codigo
+& cd ./scripts
 & python simulate_data.py
 & python RL_Energia_gas.py
 & python RL_Energia_carbon.py
