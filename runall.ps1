@@ -11,6 +11,7 @@ $Pythonscriptpath = "C:\Users\ypalacios\Desktop\Universidad\Taller3\Taller3-GPIC
 & python RL_Energia_carbon.py
 & python RL_Energia_petroleo.py
 & python RL_Energia_embalses.py
+& cd ../
 
 
 Write-Output "Listo!"
