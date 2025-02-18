@@ -14,3 +14,6 @@ Python 3.11
 
 ##### Herramientas y Aplicaciones
 VScode Studio
+
+#### Instrucciones
+Para correr el archivo "runall.ps1" debe tener Powershell con conda activado, en mi caso lo hice desde miniforge prompt, con esto podremos instalar el ambiente y correremos el código con python.
