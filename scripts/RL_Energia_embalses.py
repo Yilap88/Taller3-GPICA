@@ -19,7 +19,7 @@ ruta_script = os.path.abspath(__file__)  # Ruta completa del script
 directorio_actual = os.path.dirname(ruta_script)  # Solo el directorio donde está ubicado el script
 directorio_superior = os.path.dirname(directorio_actual) # subimos un directorio
 os.chdir(directorio_superior) # Establecemos /proyecto_investigacion/ como ruta de trabajo
-dforiginal = pd.read_csv('datos/datos.csv') # Como ya estamos en el directorio donde tenemos los datos en formato csv los cargamos a un dataframe
+dforiginal = pd.read_csv('data/datos.csv') # Como ya estamos en el directorio donde tenemos los datos en formato csv los cargamos a un dataframe
 # Filtrar solo las columnas 'Edad' y 'Salario'
 df = dforiginal[['P_energia', 'embalses']]
 
@@ -62,7 +62,7 @@ plt.title('Regresión Lineal Energía vs Nivel de los Embalses')
 plt.legend()
 
 # Guardar la tabla como un archivo .png
-plt.savefig('resultados/04_RL_Energia_embalses_grafica.png', format="png", bbox_inches="tight", dpi=300)
+plt.savefig('results/04_RL_Energia_embalses_grafica.png', format="png", bbox_inches="tight", dpi=300)
 
 # Mostrar la imagen (opcional)
 plt.show()
@@ -100,7 +100,7 @@ ax.axis('off')  # Desactiva los ejes
 tabla = ax.table(cellText=resultadospred.values, colLabels=resultadospred.columns, loc='center', cellLoc='center', colColours=['lightgrey']*len(df.columns))
 
 # Guardar la tabla como un archivo .png
-plt.savefig('resultados/04_RL_Energia_embalses_evaluacion.png', format="png", bbox_inches="tight", dpi=300)
+plt.savefig('results/04_RL_Energia_embalses_evaluacion.png', format="png", bbox_inches="tight", dpi=300)
 
 # Mostrar la imagen (opcional)
 plt.show()
