@@ -65,7 +65,7 @@ plt.legend()
 plt.savefig('results/02_RL_Energia_carbon_grafica.png', format="png", bbox_inches="tight", dpi=300)
 
 # Mostrar la imagen (opcional)
-#plt.show()
+##plt.show()
 ######
 
 
