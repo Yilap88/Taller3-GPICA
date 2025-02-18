@@ -65,7 +65,7 @@ plt.legend()
 plt.savefig('results/01_RL_Energia_gas_grafica.png', format="png", bbox_inches="tight", dpi=300)
 
 # Mostrar la imagen (opcional)
-plt.show()
+#plt.show()
 ######
 
 
@@ -103,4 +103,4 @@ tabla = ax.table(cellText=resultadospred.values, colLabels=resultadospred.column
 plt.savefig('results/01_RL_Energia_gas_evaluacion.png', format="png", bbox_inches="tight", dpi=300)
 
 # Mostrar la imagen (opcional)
-plt.show()
+#plt.show()
